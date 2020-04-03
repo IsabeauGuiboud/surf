@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+  <title>Notre Google</title>
+  <meta charset="utf-8">
+  <link href="https://images.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png"
+    rel="shortcut icon">
+  <script src="https://kit.fontawesome.com/d70a89f18c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="public/css/google.css">
+  <script src="public/js/appgoogle.js"></script>
+</head>
+
+<body>
+  <div id="body">
+
+    <div id="main">
+
+      <div id="btn">
+        <div style="padding-right: 15px;">
+          <div style="padding-left: 15px;padding-top: 7px;"><a href="https://www.google.fr/imghp?hl=fr&tab=wi&authuser=0&ogbl">Images</a></div>
+          <div style="padding-top: 7px;"><a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl">Gmail</a></div>
+        </div>
+        <div style="padding-right: 15px;">
+          <div style="padding-left: 15px;padding-top: 7px;"><a id="connexion" href="https://accounts.google.com/">Connexion</a></div>
+          <div><a onclick="cool()" class="neuf"></a></div>
+        </div>
+      </div>
+
+      <div id="app"
+        style="overflow: hidden; top: 0px; width: 340px; z-index: 991; position: absolute; height: 468px; margin-top: 56px;
+        max-height: calc(-56px + 100vh); right: 0px; margin-right: 27px; transition: height 0.3s ease-in-out 0s; visibility: hidden;">
+        <iframe id="app2" ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no"
+          tabindex="0" vspace="0" width="100%" role="presentation" id="I0_1585614304087" name="I0_1585614304087"
+          src="https://ogs.google.fr/u/0/widget/app?origin=https%3A%2F%2Fwww.google.fr&pid=1&spid=1&hl=fr&gm=&usegapi=1#id=I0_1585614304087&_gfid=I0_1585614304087&parent=https%3A%2F%2Fwww.google.fr&pfname=&rpctoken=40980021&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.OfYsKuVZ3qI.O%2Fd%3D1%2Fct%3Dzgms%2Frs%3DAHpOoo8UDq_6isr1vipw5cUlPTPPdx3_0A%2Fm%3D__features__"
+          style="height: 100%; visibility: hidden;">
+        </iframe>
+      </div>
+
+      <center>
+
+        <div id="logo">
+          <img src="public/img/google.png" alt="Logo Google" style="padding: 109px 0 0;">
+        </div>
+
+        <div id="search" style="margin-top:-5px;">
+          <div style="width: max-content;">
+            <form>
+
+              <div id="br">
+                <div style="clear: both;"></div>
+
+                <div id="loupe"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" style="height: 20px;"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59
+                    4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                    </path>
+                  </svg>
+                </div>
+
+                <div id="inp">
+                  <input></input>
+                </div>
+                <div id="mic"><img src="public/img/micgoogle.png" style="width: 24px;">
+                  <!--<i class="fas fa-microphone"></i>
+                  alternative avec Fa-->
+                </div>
+                <div style="clear: both;"></div>
+              </div>
+              <div style="clear: both;"></div>
+
+              <div style="float: left;margin-top: 18px; width: 570px; padding-bottom: 13px;">
+                <button>Recherche Google</button>
+                <button>J'ai de la chance</button>
+              </div>
+              <div style="clear: both;"></div>
+
+            </form>
+          </div>
+        </div>
+
+        <div id="covid" style="height: 45px;">
+          <img src="public/img/dothefive_90x90t.gif" style="width: 45px; margin: 0 5px 0 0;vertical-align: middle;">
+          <a href="https://www.google.fr/search?q=coronavirus+conseils&fbx=dothefive&hl=fr"
+            style="vertical-align: middle;">5 GESTES "BARRIÈRE" pour freiner le coronavirus</a>
+        </div>
+
+        <div id="lang" style="font-size: small;display: inline-block;
+                line-height: 28px;">
+          Google disponible en : <a style="padding: 0 3px;" href="https://www.google.com/">English</a>
+        </div>
+      </center>
+    </div>
+  </div>
+
+  </div>
+  <div id="footer-main">
+    <div id="footer-top">
+      <span id="footer-top">France</span>
+    </div>
+    <div id="footer-bottom">
+      <div id="left">
+        <span id="footer-left">
+          <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
+          <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">Entreprise</a>
+          <a href="https://about.google/">&Agrave; propos</a>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
+        </span>
+      </div>
+      <div id="right">
+        <span id="footer-right">
+          <a href="https://support.google.com/websearch/answer/9586983">Publication judiciaire</a>
+          <a href="https://support.google.com/websearch/answer/7585859">Info consommateurs</a>
+          <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
+          <a href="https://policies.google.com/terms?fg=1">Conditions</a>
+          <a href="https://policies.google.com/preferences?hl=fr">Paramètres</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer-main2">
+    <div id="footer-top">
+      <span id="footer-top">France</span>
+    </div>
+    <div id="footer-bottom">
+      <div id="left">
+        <span id="footer-left">
+          <a href="https://support.google.com/websearch/answer/9586983">Publication judiciaire</a>
+          <a href="https://support.google.com/websearch/answer/7585859">Info consommateurs</a>
+          <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
+          <a href="https://policies.google.com/terms?fg=1">Conditions</a>
+          <a href="https://policies.google.com/preferences?hl=fr">Paramètres</a>
+        </span>
+      </div>
+      <div id="right">
+        <span id="footer-right">
+          <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
+          <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">Entreprise</a>
+          <a href="https://about.google/">&Agrave; propos</a>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

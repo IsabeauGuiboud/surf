@@ -1,0 +1,6 @@
+.jumbotron {
+    height: 400px;
+    background-image: url("/img/surfer.jpg");
+    background-position: center;
+    background-size: cover;
+  }
